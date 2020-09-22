@@ -7,6 +7,6 @@ class User
   end
   
   def teach 
-    @knowledge.teacher
+    @knowledge
   end
 end
