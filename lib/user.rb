@@ -1,12 +1,8 @@
-call User 
-
+class User
   attr_accessor :first_name, :last_name
 
-def initialize(first_name, last_name_number)
+  def initialize(first_name = nil, last_name = nil)
     @first_name = first_name
     @last_name = last_name
   end
-  
-  user = User.first_name(name)
-  user = User.last_name(name)
-  User
+end
