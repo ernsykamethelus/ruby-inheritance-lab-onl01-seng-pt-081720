@@ -7,6 +7,6 @@ class User
   end
   
   def teach 
-    @knowledge.include?(knowledge.teach)
+    @knowledge = []
   end
 end
