@@ -7,6 +7,6 @@ class User
   end
   
   def teach 
-    @knowledge.include?(teacher.teach)
+    @knowledge.include?(knowledge.teach)
   end
 end
